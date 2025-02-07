@@ -9,14 +9,14 @@ interface ItemTextProps {
 export function ItemText( { className, conteudo, iconColor } : ItemTextProps){
     return(
 
-        <div className="flex flex-col gap-2 text-white m-10 text-3xl/tight mt-20">
-            <div className="flex gap-2">
+        <div className="flex flex-col text-white m-10 text-3xl/tight mt-20">
+            <div className="flex gap-2 justify-between">
                 
-                <div className="w-10">
+                <div className="w-2 pr-10">
                     <Clock2 color={iconColor} size={30} className="" />
                 </div>
 
-                <p className={` ${className} `} > {conteudo} </p>
+                <p data-aos="zoom-in" data-aos-deley="900" className={`lg:text-3xl flex-1 text-lg ${className} `} > {conteudo} </p>
 
             </div>
         </div>
