@@ -149,7 +149,7 @@ export default function Home() {
         </div>
 
         <div className="bg-black flex-1" data-aos="fade-down" data-aos-deley="500" >
-          <div className="absolute top-10 left-10 z-10">
+          <div className="top-10 left-10 z-10 flex justify-end m-16">
             <Logo />
           </div>
 
