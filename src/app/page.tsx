@@ -239,14 +239,9 @@ export default function Home() {
           </div>
 
           <div data-aos="fade-up" style={{ height: "480px" }} className="w-[70vw] text-white lg:mt-44 bg-slate-900/70 mt-52 px-10 flex justify-center flex-col gap-3 rounded-lg lg:mr-64">
-            <p data-aos="fade-up" data-aos-deley="900"> O escritório ZALENDA ADVOGADOS, é uma sociedade de advogados, sediado em Porto Velho-RO, com atuação On-line em Todo o Território Nacional, através de parcerias estratégicas. </p>
-            <p data-aos="fade-up" data-aos-deley="1500" > Toda a jornada iniciou em 2015, por seu sócio fundador Iágo Zalenda, que após iniciar sua militância junto a grandes e renomados escritórios, adquirindo vasta Experiência, decidiu
-              por dar continuidade a sua via Empreendedora, e que hoje, no escritório, conta com uma equipe de respeitados profissionais, e atuação ativa e especializada em prol dos interesses de seus clientes . </p>
-            <p data-aos="fade-up" data-aos-deley="1700" className=""> O sócio fundador, Iágo Zalenda, acumulou experiência significativa no mercado financeiro, participando em instituições renomadas. Essa trajetória confere-lhe um profundo
-              conhecimento em operações bancárias e no atendimento às demandas de empresas de diversos setores. Sua expertise no Direito Bancário fortalece o posicionamento do escritório em questões relacionadas às instituições financeiras,
-              agronegócio, setores e comércio. </p>
-            <p data-aos="fade-up" data-aos-deley="1900" className=""> Com estrutura robusta e tecnologia de ponta, o Zalenda Advogados presta serviços jurídicos de alta qualidade em todo o Brasil, otimizando tempo e custos para seus clientes.
-              Nosso compromisso com a ética, a cooperação e a confiabilidade é o que nos diferencia e consolida como referência na advocacia empresarial e bancária. </p>
+            <p data-aos="fade-up" data-aos-deley="900"> Zalenda Advogados é uma sociedade de advogados sediada em Porto Velho-RO, com atuação online em todo o território nacional, fortalecida por parcerias estratégicas. Fundado em 2015 por Iágo Zalenda, o escritório nasceu da expertise adquirida pelo sócio-fundador durante sua trajetória em renomados escritórios de advocacia, consolidando-se como uma referência no mercado jurídico. Hoje, conta com uma equipe de profissionais qualificados, dedicados a atuar de forma especializada e proativa na defesa dos interesses de seus clientes. </p>
+            <p data-aos="fade-up" data-aos-deley="1700" className=""> Com vasta experiência no mercado financeiro, adquirida em instituições de destaque, Iágo Zalenda traz ao escritório um profundo conhecimento em operações bancárias e demandas empresariais de diversos setores, com ênfase em Direito Bancário, agronegócio, comércio e indústria. Essa expertise fortalece o posicionamento do Zalenda Advogados em questões complexas envolvendo instituições financeiras e negócios corporativos. </p>
+            <p data-aos="fade-up" data-aos-deley="1900" className=""> Aliando uma estrutura robusta e tecnologia de ponta, o escritório oferece serviços jurídicos de excelência em todo o Brasil, garantindo eficiência, redução de custos e soluções personalizadas. O compromisso com a ética, a transparência e a confiabilidade consolida o Zalenda Advogados como uma referência em advocacia empresarial e bancária, sempre pautado pela cooperação e pela busca de resultados excepcionais. </p>
           </div>
 
         </div>
