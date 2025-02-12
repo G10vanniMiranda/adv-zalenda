@@ -49,7 +49,7 @@ export default function Home() {
           rounded-md lg:mt-44 mt-16 -ml-5 lg:ml-10 font-bold">JUROS ABUSIVOS </h2>
 
           <p className="lg:text-3xl text-[8px] -ml-3 lg:ml-10 text-start md:text-center bg-yellow-600 
-          p-2 -pl-2 lg:pl-5 rounded-xl font-semibold"> Saiba se você está pagando juros abusivos <span className=" md:block hidden">ou taxas indevidas.</span> </p>
+          p-2 -pl-2 lg:pl-5 rounded-xl font-semibold"> Descubra se você está pagando juros abusivos <span className=" md:block hidden">ou taxas indevidas.</span> </p>
         </div>
       </section>
 
@@ -63,15 +63,16 @@ export default function Home() {
           <Logo />
         </div>
 
-        <h2 className="text-xl lg:text-7xl lg:mt-16 mt-8 mb-8 lg:mb-16 w-[350px] -  ml-3 lg:w-[800px] md:text-start lg:text-center">Empréstimo com juros e taxas indevidas?</h2>
+        <h2 className="text-xl lg:text-7xl lg:mt-16 mt-8 mb-8 lg:mb-16 w-[350px] -ml-3 lg:w-[800px] md:text-start lg:text-center">Empréstimo com juros e taxas abusivas? Descubra agora.</h2>
 
         <p className="text-md px-2 lg:mt-20 lg:text-2xl text-justify md:text-center lg:w-[1280px] w-[320px] ">
-          Os bancos frequentemente aplicam taxas e juros abusivos em contratos de empréstimos e
-          financiamentos, e ainda incluem produtos indesejados sem o conhecimento do cliente.
-          Revisar esses contratos pode recuperar valores pagos indevidamente e reduzir custos.
+          Os bancos frequentemente aplicam taxas e juros abusivos em contratos de empréstimos e financiamentos, além de incluir produtos indesejados
+          sem o consentimento do cliente. Revisar esses contratos pode resultar na recuperação de valores pagos indevidamente e na redução de custos.
         </p>
         <p className="text-md mt-10 px-2 lg:mt-20 lg:text-2xl text-justify md:text-center lg:w-[1280px] w-[320px] ">
-          Acrescentar produtos ou serviços não solicitados nos contratos de empréstimos, configura prática abusiva conhecida como venda casada , proibida pelo Código de Defesa do Consumidor. Exemplos comuns incluem: Seguro Prestamista, Pacotes de Serviços Bancários, Títulos de Capitalização.
+          A inclusão de produtos ou serviços não solicitados em contratos de empréstimo configura uma prática abusiva conhecida como venda casada,
+          expressamente proibida pelo Código de Defesa do Consumidor. Entre os exemplos mais comuns estão: Seguro Prestamista, Pacotes de Serviços
+          Bancários e Títulos de Capitalização.
         </p>
 
       </section>
@@ -95,8 +96,8 @@ export default function Home() {
             <div className="border-t-2 mt-4 ">
               <h2 className="text-white lg:mb-5 lg:text-4xl lg:mt-5">1º Passo</h2>
 
-              <p className="text-white lg:text-2xl mt-2">Agenda uma consulta com nossos advogados especialistas e faça uma análise gratuita
-                do seu contrato.</p>
+              <p className="text-white lg:text-2xl mt-2">Agende uma consulta com nossos advogados especialistas e realize uma análise
+                gratuita do seu contrato.</p>
             </div>
 
           </article>
@@ -106,8 +107,8 @@ export default function Home() {
 
             <div className="border-t-2 mt-4">
               <h2 className="text-white lg:mb-5 lg:text-4xl lg:mt-5">2º Passo</h2>
-              <p className="text-white lg:text-2xl">Agenda uma consulta com nossos advogados especialistas e faça uma análise gratuita
-                do seu contrato.</p>
+              <p className="text-white lg:text-2xl">Caso sejam identificadas taxas ou juros abusivos, atuamos diretamente junto ao banco
+                para renegociar o seu contrato.</p>
             </div>
           </article>
 
@@ -115,8 +116,8 @@ export default function Home() {
             <img alt="" width={100} src="/image/icon-balance.svg" className="self-center mb-5 md:mr-5 lg:w-[100px] w-[70px] h-[100]" />
             <div className="border-t-2 mt-4">
               <h2 className="text-white mb-5 lg:text-4xl lg:mt-5">3º Passo</h2>
-              <p className="text-white lg:text-2xl">Agenda uma consulta com nossos advogados especialistas e faça uma análise gratuita
-                do seu contrato.</p>
+              <p className="text-white lg:text-2xl">Caso as medidas administrativas não sejam suficientes, é possível recorrer à via
+                judicial para garantir seus direitos.</p>
             </div>
           </article>
 
@@ -127,23 +128,18 @@ export default function Home() {
       <section className="  flex relative h-[200vh] lg:h-[100vh] flex-col lg:flex-row">
 
         <div className="flex-1 bg-yellow-600 flex flex-col justify-center px-5 items-center">
-          <h1 className=" font-extrabold p-4 w-full text-black text-7xl text-center"> Efeitos da <br /> revisão: </h1>
+          <h1 className=" font-extrabold p-4 w-full text-black text-7xl text-center"> Benefícios da <br /> revisão: </h1>
 
           <div data-aos="fade-up" className="bg-white lg:w-[600px] p-5 text-black w-full rounded-2xl" >
             <p data-aos="zoom-in" data-aos-deley="900" className="text-justify lg:text-2xl">
-              A revisão de contratos de empréstimo
-              consiste em uma análise minuciosa
-              das cláusulas contratuais, buscando
-              identificar e corrigir eventuais
-              irregularidades e ilegalidades que
-              gerem onerosidade excessiva ao
-              devedor, seja ele pessoa física ou
-              jurídica. Esse procedimento tem como
-              objetivo reequilibrar a relação
-              contratual entre as partes, garantindo
-              que os termos do empréstimo estejam
-              de acordo com a lei e com os princípios
-              da boa-fé e da justiça contratual.
+              A revisão de contratos de empréstimo consiste em uma
+              análise detalhada das cláusulas contratuais, com o
+              objetivo de identificar e corrigir eventuais irregularidades
+              ou ilegalidades que resultem em onerosidade excessiva
+              para o devedor, seja pessoa física ou jurídica. Esse processo
+              visa reequilibrar a relação entre as partes, assegurando que
+              os termos do contrato estejam em conformidade com a legislação
+              vigente e com os princípios da boa-fé e da justiça contratual.
             </p>
           </div>
         </div>
@@ -153,16 +149,18 @@ export default function Home() {
             <Logo />
           </div>
 
-          <ItemText conteudo="Redução do saldo devedor." />
-          <ItemText conteudo="Diminuição do valor das parcelas." />
-          <ItemText conteudo="Restituição de valores pagos a maior, em dobro, com correção e juros." />
-          <ItemText conteudo="Anulação de cláusulas abusivas." />
-          <ItemText conteudo="Renegociação do contrato em condições mais justas." />
-          <ItemText conteudo="É possível realizar a revisão mesmo que você esteja com parcelas em atraso e estiver sendo
-                cobrado administrativamente ou judicialmente pelo banco." />
+          <div className="h-4/6">
+            <ItemText conteudo="Redução do saldo devedor." />
+            <ItemText conteudo="Diminuição do valor das parcelas." />
+            <ItemText conteudo="Restituição dos valores pagos a maior, em dobro, com correção monetária e juros legais." />
+            <ItemText conteudo="Anulação de cláusulas abusivas." />
+            <ItemText conteudo="Renegociação do contrato em condições mais justas e equilibradas." />
+            <ItemText conteudo="É possível realizar a revisão do contrato mesmo em casos de parcelas em atraso, 
+                              independentemente de cobranças administrativas ou ações judiciais movidas pelo banco." />
+          </div>
 
           <div>
-            <p> Agende uma consulta para saber mais. </p>
+            <p className="text-center"> Agende uma consulta para saber mais. </p>
           </div>
         </div>
 
@@ -191,7 +189,7 @@ export default function Home() {
             ]}
           />
 
-          <ItemBox icon={<FaHandshakeAngle  size={100} className="w-14 lg:w-44" />} title="Trabalhista"
+          <ItemBox icon={<FaHandshakeAngle size={100} className="w-14 lg:w-44" />} title="Trabalhista"
             items={[
               { conteudoText: "Defesa especializada em ações trabalhistas" },
               { conteudoText: "Gestão estratégica de riscos trabalhistas" },
@@ -208,7 +206,7 @@ export default function Home() {
             ]}
           />
 
-          <ItemBox icon={<FaRegUser  size={100} className="w-14 lg:w-44" />} title="Para você"
+          <ItemBox icon={<FaRegUser size={100} className="w-14 lg:w-44" />} title="Para você"
             items={[
               { conteudoText: "Benefícios de assistência social" },
               { conteudoText: "Previdência e planejamento financeiro" },
@@ -242,12 +240,12 @@ export default function Home() {
 
           <div data-aos="fade-up" style={{ height: "480px" }} className="w-[70vw] text-white lg:mt-44 bg-slate-900/70 mt-52 px-10 flex justify-center flex-col gap-3 rounded-lg lg:mr-64">
             <p data-aos="fade-up" data-aos-deley="900"> O escritório ZALENDA ADVOGADOS, é uma sociedade de advogados, sediado em Porto Velho-RO, com atuação On-line em Todo o Território Nacional, através de parcerias estratégicas. </p>
-            <p data-aos="fade-up" data-aos-deley="1500" > Toda a jornada iniciou em 2015, por seu sócio fundador Iágo Zalenda, que após iniciar sua militância junto a grandes e renomados escritórios, adquirindo vasta Experiência, decidiu 
+            <p data-aos="fade-up" data-aos-deley="1500" > Toda a jornada iniciou em 2015, por seu sócio fundador Iágo Zalenda, que após iniciar sua militância junto a grandes e renomados escritórios, adquirindo vasta Experiência, decidiu
               por dar continuidade a sua via Empreendedora, e que hoje, no escritório, conta com uma equipe de respeitados profissionais, e atuação ativa e especializada em prol dos interesses de seus clientes . </p>
-            <p data-aos="fade-up" data-aos-deley="1700" className=""> O sócio fundador, Iágo Zalenda, acumulou experiência significativa no mercado financeiro, participando em instituições renomadas. Essa trajetória confere-lhe um profundo 
-              conhecimento em operações bancárias e no atendimento às demandas de empresas de diversos setores. Sua expertise no Direito Bancário fortalece o posicionamento do escritório em questões relacionadas às instituições financeiras, 
+            <p data-aos="fade-up" data-aos-deley="1700" className=""> O sócio fundador, Iágo Zalenda, acumulou experiência significativa no mercado financeiro, participando em instituições renomadas. Essa trajetória confere-lhe um profundo
+              conhecimento em operações bancárias e no atendimento às demandas de empresas de diversos setores. Sua expertise no Direito Bancário fortalece o posicionamento do escritório em questões relacionadas às instituições financeiras,
               agronegócio, setores e comércio. </p>
-            <p data-aos="fade-up" data-aos-deley="1900" className=""> Com estrutura robusta e tecnologia de ponta, o Zalenda Advogados presta serviços jurídicos de alta qualidade em todo o Brasil, otimizando tempo e custos para seus clientes. 
+            <p data-aos="fade-up" data-aos-deley="1900" className=""> Com estrutura robusta e tecnologia de ponta, o Zalenda Advogados presta serviços jurídicos de alta qualidade em todo o Brasil, otimizando tempo e custos para seus clientes.
               Nosso compromisso com a ética, a cooperação e a confiabilidade é o que nos diferencia e consolida como referência na advocacia empresarial e bancária. </p>
           </div>
 
