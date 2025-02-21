@@ -43,7 +43,6 @@ export default function Home() {
           <Logo />
         </div>
 
-        {/* modificar */}
         <img
           src="./image/home.png"
           className="absolute inset-0 w-full h-full object-cover"
@@ -72,7 +71,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 2 sessão pronto SESSÃO ESTÁ OCULTA */}
+      {/* 2 sessão pronto Perfil */}
       <section
         className="flex flex-col items-center justify-start relative h-auto w-full md:w-screen lg:h-screen py-12"
         style={{
@@ -155,26 +154,23 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 3 sessão pronto */}
-      <section className="  flex flex-col relative h-[100vh] justify-center max-w[1280px mx-auto] lg:h-screen bg-white">
+      {/* 3 sessão pronto Conheça nossos serviços */}
+      <section className="flex flex-col relative min-h-screen justify-start max-w-[1280px] mx-auto bg-white">
         <div
+          className="relative w-full h-[30vh] bg-cover bg-no-repeat flex items-center justify-center"
           style={{
             backgroundImage: `url("./image/topo.png")`,
-            width: "100%",
-            height: "25vh",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
           }}
         >
-          <h2 className="text-center text-white text-2xl mt-36 lg:mt-10 lg:text-6xl font-bold">
+          <h2 className="absolute top-5 text-center pt-16 text-white text-3xl lg:text-5xl font-bold">
             Conheça nossos <br /> serviços
           </h2>
         </div>
 
-        <div className="md:flex lg:mt-40 justify-evenly w-full m-2 text-black h-[75vh] pt-5 lg:p-10">
+        <div className="flex flex-wrap justify-center gap-10 w-full p-5 lg:p-10 text-black">
           <ItemBox
             data-aos="zoom-in"
-            icon={<CiBag1 size={100} className="w-14 lg:w-56" />}
+            icon={<CiBag1 size={100} className="w-14 lg:w-20" />}
             title="Blindagem patrimonial"
             items={[
               { conteudoText: "Defesa estratégica em execuções fiscais" },
@@ -186,7 +182,7 @@ export default function Home() {
           />
 
           <ItemBox
-            icon={<FaHandshakeAngle size={100} className="w-14 lg:w-44" />}
+            icon={<FaHandshakeAngle size={100} className="w-14 lg:w-20" />}
             title="Trabalhista"
             items={[
               { conteudoText: "Defesa especializada em ações trabalhistas" },
@@ -196,7 +192,7 @@ export default function Home() {
           />
 
           <ItemBox
-            icon={<AiOutlineGlobal size={100} className="w-14 lg:w-44" />}
+            icon={<AiOutlineGlobal size={100} className="w-14 lg:w-20" />}
             title="Empresarial"
             items={[
               { conteudoText: "Registro de marcas e patentes" },
@@ -207,7 +203,7 @@ export default function Home() {
           />
 
           <ItemBox
-            icon={<FaRegUser size={100} className="w-14 lg:w-44" />}
+            icon={<FaRegUser size={100} className="w-14 lg:w-20" />}
             title="Para você"
             items={[
               { conteudoText: "Benefícios de assistência social" },
@@ -219,13 +215,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="  flex flex-col relative">
-        <div className="absolute top-10 left-10  z-10">
+      {/* 4 sessão pronto O que fazer */}
+      <section className="relative flex flex-col min-h-screen">
+        <div className="absolute top-5 left-5 z-10">
           <Logo />
         </div>
 
-        <header className="flex flex-col bg-yellow-600 w-screen lg:h-[22vh] h-[20vh]">
-          <h2 className="lg:text-5xl text-2xl font-bold ml-10 text-black mt-28">
+        <header className="flex flex-col justify-center bg-yellow-600 w-full lg:h-[22vh] h-[20vh]">
+          <h2 className="lg:text-5xl text-2xl font-bold ml-10 text-black">
             O que fazer?
           </h2>
         </header>
@@ -297,70 +294,25 @@ export default function Home() {
             </div>
           </article>
         </article>
-      </section>
 
-      {/* 4 sessão pronto */}
-      <section className="  flex relative h-[200vh] lg:h-[100vh] flex-col lg:flex-row">
-        <div className="flex-1 bg-yellow-600 flex flex-col justify-center px-5 items-center">
-          <h1 className=" font-extrabold p-4 w-full text-black text-7xl text-center">
-            {" "}
-            Benefícios da <br /> revisão:{" "}
-          </h1>
-
-          <div
-            data-aos="fade-up"
-            className="bg-white lg:w-[600px] p-5 text-black w-full rounded-2xl"
+        <div className="flex justify-center bg-zinc-900">
+          <a
+            href="wa.me/5569992682118"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg shadow-md transition-all duration-300 flex items-center gap-2"
           >
-            <p
-              data-aos="zoom-in"
-              data-aos-deley="900"
-              className="text-justify lg:text-2xl"
-            >
-              A revisão de contratos de empréstimo consiste em uma análise
-              detalhada das cláusulas contratuais, com o objetivo de identificar
-              e corrigir eventuais irregularidades ou ilegalidades que resultem
-              em onerosidade excessiva para o devedor, seja pessoa física ou
-              jurídica. Esse processo visa reequilibrar a relação entre as
-              partes, assegurando que os termos do contrato estejam em
-              conformidade com a legislação vigente e com os princípios da
-              boa-fé e da justiça contratual.
-            </p>
-          </div>
-        </div>
-
-        <div
-          className="bg-black flex-1"
-          data-aos="fade-down"
-          data-aos-deley="500"
-        >
-          <div className="top-10 left-10 z-10 flex justify-end m-16">
-            <Logo />
-          </div>
-
-          <div className="h-4/6">
-            <ItemText conteudo="Redução do saldo devedor." />
-            <ItemText conteudo="Diminuição do valor das parcelas." />
-            <ItemText conteudo="Restituição dos valores pagos a maior, em dobro, com correção monetária e juros legais." />
-            <ItemText conteudo="Anulação de cláusulas abusivas." />
-            <ItemText conteudo="Renegociação do contrato em condições mais justas e equilibradas." />
-            <ItemText
-              conteudo="É possível realizar a revisão do contrato mesmo em casos de parcelas em atraso, 
-                              independentemente de cobranças administrativas ou ações judiciais movidas pelo banco."
+            <img
+              src="./image/whatsapp-icon.png"
+              alt="WhatsApp"
+              className="w-6 h-6"
             />
-          </div>
-
-          <div>
-            <p className="text-center">
-              {" "}
-              Agende uma consulta para saber mais.{" "}
-            </p>
-          </div>
+            Atendimento via WhatsApp
+          </a>
         </div>
       </section>
 
-      {/* 5 sessão pronto Conheça Nossos Serviços */}
-
-      {/* 7 sessão Contato  */}
+      {/* 5 sessão pronto Contato */}
       <section className="  flex items-center lg:h-[100vh]">
         <div
           className="items-center justify-start lg:flex hidden"
