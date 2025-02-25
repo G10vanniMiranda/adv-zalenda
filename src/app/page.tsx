@@ -3,9 +3,8 @@ import { Logo } from "@/components/logo";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useLayoutEffect } from "react";
-import { CiBag1, CiGlobe } from "react-icons/ci";
+import { CiBag1 } from "react-icons/ci";
 import { AiOutlineGlobal } from "react-icons/ai";
-import { ItemText } from "@/components/ItemText/intext";
 import { ItemBox } from "@/components/ItemBox";
 import { FaHandshakeAngle, FaRegUser } from "react-icons/fa6";
 
@@ -34,7 +33,7 @@ export default function Home() {
         </button>
       </a>
 
-      {/* 1 sessão pronto */}
+      {/* 1. sessão pronto */}
       <section
         data-aos="fade-up"
         className="flex flex-col items-center justify-center relative h-[70vh] w-full px-4"
@@ -313,7 +312,7 @@ export default function Home() {
       </section>
 
       {/* 5 sessão pronto Contato */}
-      <section className="  flex items-center lg:h-[100vh]">
+      <section className="flex items-center justify-center h-96 w-screen lg:h-[100vh]">
         <div
           className="items-center justify-start lg:flex hidden"
           style={{
@@ -341,7 +340,7 @@ export default function Home() {
             backgroundSize: "cover",
           }}
         >
-          <div className="p-10">
+          <div className="flex flex-col justify-center w-full">
             <h3 className="text-6xl font-bold -ml-16 flex lg:hidden">
               Contato
             </h3>
@@ -375,6 +374,10 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <div>
+        <p>@2025 | Mi7anda</p>
+      </div>
     </div>
   );
 }
